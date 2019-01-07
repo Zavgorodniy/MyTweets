@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "353731519201",
+    "firebase_url": "https://mytweets-ed3e3.firebaseio.com",
+    "project_id": "mytweets-ed3e3",
+    "storage_bucket": "mytweets-ed3e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353731519201:android:1911c369b7099b15",
+        "android_client_info": {
+          "package_name": "com.zavgorodniy.mytweets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353731519201-38lgvt0f77poutlom11j1476hnb4rk7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zavgorodniy.mytweets",
+            "certificate_hash": "a358115f04e5967131cb0b47ba26f4a448ee8d50"
+          }
+        },
+        {
+          "client_id": "353731519201-5cegqd8soovub8ih23ke2ml5uua6u2hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG0mwJk2Fk9ldhujKzubxiXb12D8PUrFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353731519201-5cegqd8soovub8ih23ke2ml5uua6u2hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
