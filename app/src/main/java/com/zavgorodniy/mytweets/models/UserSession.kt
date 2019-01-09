@@ -5,12 +5,14 @@ object UserSession {
     var userName: String? = null
     var secret: String? = null
     var token: String? = null
+    var type: String? = null
 
-    fun newSession(userId: Long, userName: String, secret: String?, token: String?) {
+    fun newSession(userId: Long, userName: String, secret: String?, token: String?, type: String?) {
         this.userId = userId
         this.userName = userName
         this.secret = secret
         this.token = token
+        this.type = type
     }
 
     fun clear() {
@@ -18,5 +20,6 @@ object UserSession {
         userName = null
         secret = null
         token = null
+        type = null
     }
 }

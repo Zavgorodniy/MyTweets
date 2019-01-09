@@ -3,4 +3,6 @@
 
     <string name="ok">Ok</string>
     <string name="error_title">Error</string>
+    <string name="enter_user_name">Or enter the user name:</string>
+    <string name="submit">submit</string>
 </resources>

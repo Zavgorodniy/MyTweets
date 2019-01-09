@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.Bundle
 import com.zavgorodniy.mytweets.R
 import com.zavgorodniy.mytweets.ui.base.BaseActivity
-import com.zavgorodniy.mytweets.ui.screen.auth.login.LoginFragment
 import com.zavgorodniy.mytweets.ui.screen.main.timeline.TimelineFragment
 
 class MainActivity : BaseActivity<MainViewModel>() {

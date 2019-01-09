@@ -10,6 +10,26 @@
     <com.twitter.sdk.android.core.identity.TwitterLoginButton
             android:id="@+id/btLogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_user_name"
+            android:layout_marginBottom="8dp"/>
+
+    <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+    <Button
+            android:id="@+id/btConfirmName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"/>
 
 </LinearLayout>

@@ -17,10 +17,10 @@ android {
     }
     buildTypes {
         all {
-            buildConfigField "String", "ENDPOINT", '"https://api.twitter.com"'
+            buildConfigField "String", "ENDPOINT", '"https://api.twitter.com/"'
             buildConfigField "String", "PREF_NAME", '"my_tweets_prefs.xml"'
-            buildConfigField 'String', "TWITTER_CONSUMER_KEY", '"OfHeWbJ3o9Lr47MJt7s07KlLz "'
-            buildConfigField 'String', "TWITTER_CONSUMER_SECRET", '"T3YbwBZkvKdXMUaa26CDR7FrIxz9OsmcLgggIWf81fRCfIUOYA"'
+            buildConfigField 'String', "TWITTER_CONSUMER_KEY", '"Jz4BzcDzXeO3rsgVECQ1WMmGM"'
+            buildConfigField 'String', "TWITTER_CONSUMER_SECRET", '"4chXHZY8xYj3EveC0qem0Rslc8VFyis1i1Otf3Rf9xwVTchrcs"'
         }
 
         release {
